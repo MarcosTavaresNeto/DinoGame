@@ -50,7 +50,7 @@ function criaCactos(){
             BACKGROUND.removeChild(CACTOS);
         }else if(positionCactus > 0 && positionCactus < 60 && position <60 ){
             clearInterval(leftInterval);
-            document.body.innerHTML = '<h1 class="gameOver"> GAME OVER <BR> <BR> Ponuação =>  '+ pontos + ' </h1>';
+            document.body.innerHTML = '<h1 class="gameOver"> GAME OVER <BR> <BR> Ponutuação =>  '+ pontos + ' </h1>';
             document.body.style.backgroundColor ='black';
 
         }
